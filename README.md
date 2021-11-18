@@ -13,6 +13,8 @@ tipos de ícones: programas executáveis, diretórios (pastas) e arquivos do tip
 ## Tecnologias
 O projeto foi desenvolvido em linguagem C, com a seguintes tecnologia:
  - [GTK | -v 2.0](https://www.gtk.org/)
+### Compilar via terminal Ubuntu
+ - gcc -o main main.c `pkg-config --libs --cflags gtk+-2.0`
 ## Layout
 Aqui se encontra uma breve visualização da aplicação.
 #### Desktop Screenshot
